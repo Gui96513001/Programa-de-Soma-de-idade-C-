@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<locale.h>
+
+int main(){
+	int idade1, idade2, soma;
+	
+	setlocale(LC_ALL,"Portuguese");
+	
+	printf("Digite a idade da primeira pessoa: ");
+	scanf("%d",&idade1);
+	
+	printf("Digite a idade da segunda pessoa.: ");
+	scanf("%d",&idade2);
+
+	soma = idade1 + idade2;
+	
+	printf("A soma das idades é %d",soma);
+
+	printf("\n\n");
+	system("pause");
+}
